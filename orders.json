@@ -1,0 +1,20 @@
+[
+  {
+    "pair": "XETHZEUR",
+    "direction": "buy",
+    "type": "market",
+    "volume": 20
+  },
+  {
+    "pair": "XXBTZEUR",
+    "direction": "buy",
+    "type": "market",
+    "volume": 20
+  },
+  {
+    "pair": "ALGOEUR",
+    "direction": "buy",
+    "type": "market",
+    "volume": 10
+  }
+]
