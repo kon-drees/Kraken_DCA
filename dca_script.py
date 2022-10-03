@@ -25,6 +25,7 @@ if __name__ == '__main__':
     logger = Logger("./log.txt")
     orders = read_orders_from_file(logger)
     kraken = KrakenApi(logger)
+    kraken.load_keys()
     for order in orders:
         kraken.kraken_place_order(order)
 
